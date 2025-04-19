@@ -27,7 +27,25 @@ This site serves as a demonstration of Stefan's frontend development skills, UI/
 - ✅ Vanilla JS (for interactions)
 - 🎨 Responsive design for all devices
 
+![HTML](https://img.shields.io/badge/Built%20with-HTML5-orange)
+![TailwindCSS](https://img.shields.io/badge/Styled%20with-TailwindCSS-38bdf8)
+![Status](https://img.shields.io/badge/Live-Site-brightgreen)
+
 ---
+
+## 🔍 Live Previews
+
+| Project | Preview |
+|--------|---------|
+| BookEase | ![BookEase](images/BookEasePreview.png) |
+| CanvasVault | ![CanvasVault](images/CanvasVaultPreview.png) |
+| JobPilot | ![JobPilot](images/JobPilotPreview.png) |
+
+### 📂 Direct Project Demos
+
+- [BookEase](https://portfolio.techspheretechnologies.com/project-1-bookease/)
+- [CanvasVault](https://portfolio.techspheretechnologies.com/project-4-canvasvault/)
+- [JobPilot](https://portfolio.techspheretechnologies.com/project-6-jobpilot/)
 
 ## 🚀 License
 
