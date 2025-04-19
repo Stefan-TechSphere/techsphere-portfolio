@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Basics -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- Title & SEO -->
+        <title>BiteSize Menu | Digital Menu Demo</title>
+        <meta name="description" content="BiteSize Menu is a bold, mobile-friendly digital menu site perfect for restaurants and takeaways. Designed by TechSphere Technologies." />
+        <meta name="author" content="TechSphere Technologies" />
+
+        <!-- Favicon -->
+        <link rel="icon" href="/images/bitesize favicon.png" />
+
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Google Fonts (Playfair + Inter) -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+
+        <!-- Social Meta -->
+        <meta property="og:title" content="BiteSize Menu | Restaurant Demo Site" />
+        <meta property="og:description" content="Bold. Responsive. Appetizing. A demo menu site by TechSphere." />
+        <meta property="og:image" content="assets-bitesize/og-preview.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+    </head>
+
+    <body class="font-[Inter] bg-[#FFF8F0] text-gray-800">
+
+        <!-- Hero Section -->
+        <section class="bg-[#D72638] text-white py-20 px-6 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h1 class="font-[Playfair Display] text-4xl sm:text-5xl font-bold mb-4">
+                    BiteSize Menu
+                </h1>
+                <p class="text-lg sm:text-xl mb-8">
+                    Fresh, fast, and made to order — browse our digital menu anytime.
+                </p>
+                <a href="#menu" class="inline-block bg-white text-[#D72638] font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-orange-100 transition">
+                    View Menu
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section with Icons -->
+        <section class="py-16 px-6 bg-[#FFF8F0] text-center">
+            <div class="max-w-2xl mx-auto">
+                <!-- Heading with Emoji -->
+                <h2 class="text-3xl sm:text-4xl font-semibold text-[#D72638] mb-2 flex items-center justify-center gap-2">
+                    <span>🍔</span>
+                    <span>Welcome to BiteSize</span>
+                </h2>
+
+                <!-- Star Rating (fake social proof) -->
+                <div class="flex justify-center mb-6 text-yellow-400 text-xl">
+                    ★ ★ ★ ★ ★
+                </div>
+
+                <p class="text-md sm:text-lg text-gray-700 leading-relaxed">
+                    BiteSize Menu is the perfect solution for restaurants, cafés, and food trucks looking to offer a modern, mobile-friendly menu experience.
+                    Built to be fast, simple, and appetizing — just like your food.
+                </p>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="py-20 px-6 bg-white text-center" id="menu">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-[#D72638] mb-12">
+                    Our Menu
+                </h2>
+
+                <!-- 🍔 Burgers -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-semibold text-[#D72638] mb-6">🍔 Burgers</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left">
+                        <!-- Card 1 -->
+                        <div class="bg-orange-50 p-6 rounded-xl shadow">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">Classic Cheeseburger</h4>
+                            <p class="text-gray-700 text-sm mb-2">Beef patty, melted cheese, lettuce, tomato, and our secret sauce.</p>
+                            <p class="text-orange-600 font-semibold">R79.00</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="bg-orange-50 p-6 rounded-xl shadow">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">Spicy Jalapeño Burger</h4>
+                            <p class="text-gray-700 text-sm mb-2">Kick it up a notch with pickled jalapeños and pepper jack cheese.</p>
+                            <p class="text-orange-600 font-semibold">R89.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🍟 Sides -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-semibold text-[#D72638] mb-6">🍟 Sides</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left">
+                        <!-- Card 1 -->
+                        <div class="bg-orange-50 p-6 rounded-xl shadow">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">Crispy Fries</h4>
+                            <p class="text-gray-700 text-sm mb-2">Golden, crispy, and perfectly seasoned.</p>
+                            <p class="text-orange-600 font-semibold">R25.00</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="bg-orange-50 p-6 rounded-xl shadow">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">Mozzarella Sticks</h4>
+                            <p class="text-gray-700 text-sm mb-2">Crunchy outside, gooey inside — served with marinara.</p>
+                            <p class="text-orange-600 font-semibold">R39.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🥤 Drinks -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-semibold text-[#D72638] mb-6">🥤 Drinks</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left">
+                        <!-- Card 1 -->
+                        <div class="bg-orange-50 p-6 rounded-xl shadow">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">Soft Drink (330ml)</h4>
+                            <p class="text-gray-700 text-sm mb-2">Choose from Coke, Fanta, Sprite or Cream Soda.</p>
+                            <p class="text-orange-600 font-semibold">R18.00</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="bg-orange-50 p-6 rounded-xl shadow">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">BiteSize Milkshake</h4>
+                            <p class="text-gray-700 text-sm mb-2">Vanilla, chocolate, or strawberry — thick and chilled.</p>
+                            <p class="text-orange-600 font-semibold">R35.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🌯 Wraps & Specials -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-semibold text-[#D72638] mb-6">🌯 Wraps & Specials</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left">
+                        <!-- Card 1 -->
+                        <div class="bg-orange-50 p-6 rounded-xl shadow">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">Grilled Chicken Wrap</h4>
+                            <p class="text-gray-700 text-sm mb-2">Tender chicken, fresh greens, and creamy dressing in a toasted wrap.</p>
+                            <p class="text-orange-600 font-semibold">R69.00</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="bg-orange-50 p-6 rounded-xl shadow">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">BiteSize Box Special</h4>
+                            <p class="text-gray-700 text-sm mb-2">Burger, fries, and a drink — our best deal in one box.</p>
+                            <p class="text-orange-600 font-semibold">R109.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🍰 Desserts -->
+                <div class="mb-0">
+                    <h3 class="text-2xl font-semibold text-[#D72638] mb-6">🍰 Desserts</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left">
+                        <!-- Card 1 -->
+                        <div class="bg-orange-50 p-6 rounded-xl shadow">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">Choco Lava Cake</h4>
+                            <p class="text-gray-700 text-sm mb-2">Warm, gooey chocolate center — topped with cream or ice cream.</p>
+                            <p class="text-orange-600 font-semibold">R45.00</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="bg-orange-50 p-6 rounded-xl shadow">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">Mini Donut Bites</h4>
+                            <p class="text-gray-700 text-sm mb-2">Bite-sized, sugar-dusted, and served with dipping sauce.</p>
+                            <p class="text-orange-600 font-semibold">R29.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Sellers Section -->
+        <section class="py-20 px-6 bg-[#FFF8F0] text-center" id="best-sellers">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-[#D72638] mb-12">
+                    Fan Favorites 🍽️
+                </h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+                    <!-- Gallery Card 1 -->
+                    <div class="relative bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition group">
+                        <!-- Ribbon with group-hover animation -->
+                        <div class="absolute top-0 left-0 bg-[#D72638] text-white text-xs font-semibold px-3 py-1 rounded-br-xl z-10 
+                                    transform transition duration-300 ease-in-out group-hover:scale-110 group-hover:-translate-y-1">
+                            Most Popular
+                        </div>
+
+                        <!-- Image with hover zoom -->
+                        <div class="overflow-hidden">
+                            <img src="/images/cheeseburger.png" 
+                                alt="Classic Cheeseburger" 
+                                class="w-full h-48 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out">
+                        </div>
+
+                        <!-- Info -->
+                        <div class="p-5 text-left">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">Classic Cheeseburger</h4>
+                            <p class="text-gray-700 text-sm mb-2">Beef patty, cheese, fresh toppings.</p>
+                            <p class="text-orange-600 font-semibold">R79.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Card 2 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                        <img src="/images/milkshake.png" alt="Milkshake" class="w-full h-48 object-cover">
+                        <div class="p-5 text-left">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">BiteSize Milkshake</h4>
+                            <p class="text-gray-700 text-sm mb-2">Vanilla, chocolate, or strawberry.</p>
+                            <p class="text-orange-600 font-semibold">R35.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Card 3 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                        <img src="/images/lava-cake.png" alt="Choco Lava Cake" class="w-full h-48 object-cover">
+                        <div class="p-5 text-left">
+                            <h4 class="text-lg font-bold text-[#D72638] mb-1">Choco Lava Cake</h4>
+                            <p class="text-gray-700 text-sm mb-2">Melty center, served warm.</p>
+                            <p class="text-orange-600 font-semibold">R45.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Location Section -->
+        <section class="py-20 px-6 bg-white text-center" id="contact">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-[#D72638] mb-8">
+                    Find Us 🍟
+                </h2>
+
+                <p class="text-gray-700 mb-6 text-lg">
+                    Visit us at our BiteSize location, call in your order, or stop by for a takeaway!
+                </p>
+
+                <!-- Contact Details -->
+                <div class="text-left bg-orange-50 p-6 rounded-xl shadow mb-10">
+                    <p class="text-md text-gray-800 mb-2">
+                        📍 <strong>123 Burger Street, Cape Town, 8000</strong>
+                    </p>
+                    <p class="text-md text-gray-800 mb-2">
+                        📞 <a href="tel:+270123456789" class="text-[#D72638] hover:underline font-semibold">+27 012 345 6789</a>
+                    </p>
+                    <p class="text-md text-gray-800">
+                        📧 <a href="mailto:orders@bitesize.co.za" class="text-[#D72638] hover:underline font-semibold">orders@bitesize.co.za</a>
+                    </p>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="max-w-4xl mx-auto">
+                    <iframe
+                        class="w-full h-64 rounded-xl shadow"
+                        title="Map of BiteSize Restaurant in Cape Town"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13219.648296636817!2d18.4233!3d-33.9189!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc676c2d5aefcf%3A0x3a9b8b8f360b8a34!2sCape%20Town!5e0!3m2!1sen!2sza!4v1713550705555!5m2!1sen!2sza"
+                        loading="lazy"
+                        allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-[#D72638] text-white py-10 px-6">
+            <div class="max-w-6xl mx-auto text-center">
+                <h4 class="text-xl font-semibold mb-2">BiteSize Menu</h4>
+                <p class="text-sm mb-4">A digital menu demo site — designed by TechSphere Technologies</p>
+
+                <div class="flex justify-center space-x-6 text-sm mb-6">
+                    <a href="#menu" class="hover:underline">Menu</a>
+                    <a href="#best-sellers" class="hover:underline">Best Sellers</a>
+                    <a href="#contact" class="hover:underline">Contact</a>
+                </div>
+
+                <p class="text-xs text-orange-200">
+                    &copy; 2025 TechSphere Technologies. All rights reserved.
+                </p>
+
+                <!-- 🔒 Invisible Watermark -->
+                <span style="opacity: 0; font-size: 0; position: absolute; left: -9999px;">
+                    BiteSize Menu Demo by Stefan de Bruin | TechSphere Technologies | Project 3 of 6 | ©2025
+                </span>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Basic Meta -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- Title & SEO -->
+        <title>Profolio | Stefan de Bruin Portfolio</title>
+        <meta name="description" content="Profolio is a personal portfolio site for freelancers, showcasing projects, skills, and contact info. Designed by TechSphere Technologies." />
+        <meta name="author" content="Stefan de Bruin" />
+
+        <!-- Favicon (Optional) -->
+        <link rel="icon" href="/images/portfolio favicon.png" />
+
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+        <!-- Social Share Tags -->
+        <meta property="og:title" content="Profolio | Stefan de Bruin Portfolio">
+        <meta property="og:description" content="Freelancer Portfolio Website | Web Dev | Design | Contact">
+        <meta property="og:image" content="assets-profolio/og-preview.jpg">
+        <meta property="og:url" content="https://yourdomain.com/project-2">
+        <meta name="twitter:card" content="summary_large_image">
+    </head>
+
+    <body class="font-[Poppins] bg-white text-gray-800">
+        <!-- Hero Section -->
+        <section class="bg-orange-50 py-20 px-6 text-center" id="hero">
+            <div class="max-w-3xl mx-auto">
+                <!-- Profile Avatar (Optional) -->
+                <img src="/images/John.png" alt="Stefan de Bruin" class="w-24 h-24 mx-auto mb-6 rounded-full shadow-md object-cover" />
+
+                <h1 class="text-4xl sm:text-5xl font-bold text-orange-600 mb-4">
+                    Hi, I'm John
+                </h1>
+
+                <p class="text-lg sm:text-xl text-gray-700 mb-8">
+                    A freelance web developer passionate about clean code and impactful design.
+                </p>
+
+                <a href="#contact" class="inline-block bg-orange-500 text-white font-semibold px-6 py-3 rounded-xl shadow hover:bg-orange-600 transition">
+                    Hire Me
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="py-20 px-6 bg-white text-center">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-orange-600 mb-6">
+                    About Me
+                </h2>
+
+                <p class="text-md sm:text-lg text-gray-700 leading-relaxed mb-8">
+                    I'm John de Bruin — a freelance web developer with a love for clean, fast websites and smooth user experiences.
+                    I specialize in building responsive, performance-driven websites that are easy to manage and hard to forget.
+                </p>
+
+                <!-- Skills Highlights -->
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span class="bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">HTML, CSS, JS</span>
+                    <span class="bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">Responsive Design</span>
+                    <span class="bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">PHP / Laravel</span>
+                    <span class="bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">UI/UX Best Practices</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="py-20 px-6 bg-orange-50 text-center" id="projects">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-orange-600 mb-10">
+                    Portfolio Website Examples
+                </h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <!-- Example 1: Designer Portfolio -->
+                    <div class="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden">
+                        <img src="/images/designer.png" alt="Graphic Designer Portfolio" class="w-full h-48 object-cover" />
+                        <div class="p-6 text-left">
+                            <h3 class="text-xl font-semibold text-orange-700 mb-2">Freelance Graphic Designer</h3>
+                            <p class="text-gray-600 mb-4">A minimalist portfolio site with gallery, services, and contact section — designed to impress creative clients.</p>
+                            <a href="#" class="text-orange-600 font-medium hover:underline">View Example →</a>
+                        </div>
+                    </div>
+
+                    <!-- Example 2: Copywriter Portfolio -->
+                    <div class="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden">
+                        <img src="/images/copywriter.png" alt="Copywriter Portfolio" class="w-full h-48 object-cover" />
+                        <div class="p-6 text-left">
+                            <h3 class="text-xl font-semibold text-orange-700 mb-2">Freelance Copywriter</h3>
+                            <p class="text-gray-600 mb-4">Simple and SEO-focused layout highlighting services, testimonials, and blog post samples.</p>
+                            <a href="#" class="text-orange-600 font-medium hover:underline">View Example →</a>
+                        </div>
+                    </div>
+
+                    <!-- Example 3: Developer Portfolio -->
+                    <div class="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden">
+                        <img src="/images/dev.png" alt="Developer Portfolio" class="w-full h-48 object-cover" />
+                        <div class="p-6 text-left">
+                            <h3 class="text-xl font-semibold text-orange-700 mb-2">Frontend Developer</h3>
+                            <p class="text-gray-600 mb-4">Fast, responsive portfolio built with Tailwind — includes GitHub projects and contact form.</p>
+                            <a href="#" class="text-orange-600 font-medium hover:underline">View Example →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="py-20 px-6 bg-white text-center" id="services">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-orange-600 mb-10">
+                    Services Offered
+                </h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 text-left">
+                    <!-- Service 1 -->
+                    <div class="bg-orange-50 p-6 rounded-xl shadow">
+                        <h3 class="text-xl font-semibold text-orange-700 mb-2">Custom Portfolio Websites</h3>
+                        <p class="text-gray-700">Modern, responsive, and tailored to showcase your personal or professional brand.</p>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="bg-orange-50 p-6 rounded-xl shadow">
+                        <h3 class="text-xl font-semibold text-orange-700 mb-2">Personal Branding & Design</h3>
+                        <p class="text-gray-700">Visual consistency with fonts, colors, and layout to match your personality or niche.</p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="bg-orange-50 p-6 rounded-xl shadow">
+                        <h3 class="text-xl font-semibold text-orange-700 mb-2">Mobile-Optimized Layouts</h3>
+                        <p class="text-gray-700">Your site will look and work great on phones, tablets, and desktops — guaranteed.</p>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="bg-orange-50 p-6 rounded-xl shadow">
+                        <h3 class="text-xl font-semibold text-orange-700 mb-2">SEO & Google-Ready Setup</h3>
+                        <p class="text-gray-700">Clean code, meta tags, and speed optimizations to help your site rank and load fast.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Teaser Section -->
+        <section class="py-16 px-6 bg-orange-100 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-2xl sm:text-3xl font-semibold text-orange-700 mb-4">
+                    Affordable Portfolio Packages
+                </h2>
+                <p class="text-gray-700 text-lg mb-6">
+                    Whether you're just starting out or growing your freelance brand — there's a package for every stage.
+                </p>
+                <p class="text-gray-700 font-medium mb-8">
+                    Starting from <span class="text-orange-600 font-bold">R1,499</span> with quick turnaround and 100% satisfaction.
+                </p>
+                <a href="#contact" class="inline-block bg-orange-600 text-white font-semibold px-6 py-3 rounded-xl shadow hover:bg-orange-700 transition">
+                    Get a Quote
+                </a>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-20 px-6 bg-white text-center" id="testimonials">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-orange-600 mb-10">
+                    What Clients Are Saying
+                </h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
+                    <!-- Testimonial 1 -->
+                    <div class="bg-orange-50 p-6 rounded-xl shadow">
+                        <p class="text-gray-700 italic mb-4">
+                            “The site Stefan built helped me land two new clients within the first week. It’s sleek, fast, and exactly what I needed.”
+                        </p>
+                        <h4 class="font-semibold text-orange-700">– Alex P., Designer</h4>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="bg-orange-50 p-6 rounded-xl shadow">
+                        <p class="text-gray-700 italic mb-4">
+                            “From start to finish, the communication and quality were top-notch. Highly recommend for any freelancer looking to level up.”
+                        </p>
+                        <h4 class="font-semibold text-orange-700">– Jenna M., Copywriter</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="py-20 px-6 bg-orange-50" id="contact">
+            <div class="max-w-xl mx-auto text-center">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-orange-700 mb-6">
+                    Get in Touch
+                </h2>
+                <p class="text-gray-700 mb-10">
+                    Let’s build your dream portfolio website. Fill in the form below and I’ll get back to you within 24 hours.
+                </p>
+
+                <form class="bg-white p-8 rounded-xl shadow-md text-left space-y-6">
+                    <!-- Name -->
+                    <div>
+                        <label for="name" class="block font-medium text-orange-700 mb-1">Name</label>
+                        <input type="text" id="name" name="name" required class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400 transition" />
+                    </div>
+
+                    <!-- Email -->
+                    <div>
+                        <label for="email" class="block font-medium text-orange-700 mb-1">Email</label>
+                        <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400 transition" />
+                    </div>
+
+                    <!-- Message -->
+                    <div>
+                        <label for="message" class="block font-medium text-orange-700 mb-1">Message</label>
+                        <textarea id="message" name="message" rows="5" required class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400 transition"></textarea>
+                    </div>
+
+                    <!-- Submit -->
+                    <div class="text-center">
+                        <button type="button" onclick="window.location.href='https://techspheretechnologies.com/contact.php'" class="bg-orange-600 text-white font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-orange-700 transition">
+                            Enquire via Main Site
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-orange-600 text-white py-10 px-6">
+            <div class="max-w-6xl mx-auto text-center">
+                <h4 class="text-xl font-semibold mb-2">Profolio</h4>
+                <p class="text-sm mb-4">Freelancer Portfolio Demo — Designed by TechSphere Technologies</p>
+
+                <!-- Optional Links -->
+                <div class="flex justify-center space-x-6 text-sm mb-6">
+                    <a href="#hero" class="hover:underline">Home</a>
+                    <a href="#projects" class="hover:underline">Projects</a>
+                    <a href="#services" class="hover:underline">Services</a>
+                    <a href="https://techspheretechnologies.com/contact" class="hover:underline">Contact</a>
+                </div>
+
+                <p class="text-xs text-orange-200">
+                    &copy; 2025 TechSphere Technologies. All rights reserved.
+                </p>
+
+                <!-- 🔒 Invisible Watermark for Proof of Ownership -->
+                <span style="opacity: 0; font-size: 0; position: absolute; left: -9999px;">
+                    Profolio Demo by Stefan de Bruin | TechSphere Technologies | Portfolio Sample © 2025
+                </span>
+            </div>
+        </footer>
+    </body>
+</html>

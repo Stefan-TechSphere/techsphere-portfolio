@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TechSphere Portfolio | Stefan de Bruin</title>
+        <meta name="description" content="A professional showcase of Stefan de Bruin's work through TechSphere Technologies.">
+        <link rel="icon" href="/images/favicon.icon" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            .fade-in {
+                animation: fadeIn 0.8s ease-in;
+            }
+            @keyframes fadeIn {
+                from { opacity: 0; transform: translateY(10px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+        </style>
+    </head>
+
+    <body class="bg-[#0f0f0f] text-white">
+        <!-- Header -->
+        <header class="py-6 px-6 text-center border-b border-gray-800">
+            <h1 class="text-3xl sm:text-4xl font-bold text-cyan-400">TechSphere Portfolio</h1>
+            <p class="text-sm text-gray-400 mt-2">by Stefan de Bruin</p>
+            <div class="mt-4 flex justify-center gap-6 text-sm">
+                <a href="https://github.com/stefan-techsphere" target="_blank" class="text-cyan-300 hover:text-white transition">GitHub</a>
+                <a href="https://www.linkedin.com/in/stefan-techsphere" target="_blank" class="text-cyan-300 hover:text-white transition">LinkedIn</a>
+                <a href="mailto:info@techspheretechnologies.com" class="text-cyan-300 hover:text-white transition">Contact</a>
+            </div>
+        </header>
+
+        <!-- Project Grid -->
+        <section class="py-12 px-6 max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
+            <!-- Project Card Template -->
+            <div class="border border-cyan-500 rounded-xl p-4 hover:shadow-xl transition transform hover:scale-[1.02] fade-in">
+                <h2 class="text-xl font-semibold text-cyan-300 mb-2">BookEase Project</h2>
+                <a href="project-1-bookease.html" target="_blank">
+                    <img src="/images/BookEase Preview.png" alt="BookEase Preview" class="rounded-lg mb-3">
+                </a>
+                <button onclick="toggleDescription(this)" class="text-xs text-cyan-400 hover:underline">Toggle Description</button>
+                <p class="hidden text-sm mt-2 text-gray-400">A smooth service booking platform with a friendly interface and clean layout.</p>
+                <p class="text-center text-sm text-gray-400 mt-2">Click to view project</p>
+            </div>
+
+            <div class="border border-cyan-500 rounded-xl p-4 hover:shadow-xl transition transform hover:scale-[1.02] fade-in">
+                <h2 class="text-xl font-semibold text-cyan-300 mb-2">Portfolio Project</h2>
+                <a href="/project-2-profolio.html" target="_blank">
+                    <img src="/images/Portfolio Preview.png" alt="Portfolio Preview" class="rounded-lg mb-3">
+                </a>
+                <button onclick="toggleDescription(this)" class="text-xs text-cyan-400 hover:underline">Toggle Description</button>
+                <p class="hidden text-sm mt-2 text-gray-400">A personal branding website showcasing client work and skills in a clean layout.</p>
+                <p class="text-center text-sm text-gray-400 mt-2">Click to view project</p>
+            </div>
+
+            <div class="border border-cyan-500 rounded-xl p-4 hover:shadow-xl transition transform hover:scale-[1.02] fade-in">
+                <h2 class="text-xl font-semibold text-cyan-300 mb-2">BiteSize Project</h2>
+                <a href="project-3-bitesize.html" target="_blank">
+                    <img src="/images/BiteSize Preview.png" alt="BiteSize Preview" class="rounded-lg mb-3">
+                </a>
+                <button onclick="toggleDescription(this)" class="text-xs text-cyan-400 hover:underline">Toggle Description</button>
+                <p class="hidden text-sm mt-2 text-gray-400">An interactive digital restaurant menu with filters, sections and product styling.</p>
+                <p class="text-center text-sm text-gray-400 mt-2">Click to view project</p>
+            </div>
+
+            <div class="border border-cyan-500 rounded-xl p-4 hover:shadow-xl transition transform hover:scale-[1.02] fade-in">
+                <h2 class="text-xl font-semibold text-cyan-300 mb-2">CanvasVault Project</h2>
+                <a href="project-4-canvasvault.html" target="_blank">
+                    <img src="/images/CanvasVault Preview.png" alt="CanvasVault Preview" class="rounded-lg mb-3">
+                </a>
+                <button onclick="toggleDescription(this)" class="text-xs text-cyan-400 hover:underline">Toggle Description</button>
+                <p class="hidden text-sm mt-2 text-gray-400">A digital gallery demo focused on artwork presentation and minimalist UX.</p>
+                <p class="text-center text-sm text-gray-400 mt-2">Click to view project</p>
+            </div>
+
+            <div class="border border-cyan-500 rounded-xl p-4 hover:shadow-xl transition transform hover:scale-[1.02] fade-in">
+                <h2 class="text-xl font-semibold text-cyan-300 mb-2">EduPost Project</h2>
+                <a href="project-5-edupost.html" target="_blank">
+                    <img src="/images/EduPost Preview.png" alt="EduPost Preview" class="rounded-lg mb-3">
+                </a>
+                <button onclick="toggleDescription(this)" class="text-xs text-cyan-400 hover:underline">Toggle Description</button>
+                <p class="hidden text-sm mt-2 text-gray-400">A blog-style educational site with article previews and contributor sections.</p>
+                <p class="text-center text-sm text-gray-400 mt-2">Click to view project</p>
+            </div>
+
+            <div class="border border-cyan-500 rounded-xl p-4 hover:shadow-xl transition transform hover:scale-[1.02] fade-in">
+                <h2 class="text-xl font-semibold text-cyan-300 mb-2">JobPilot Project</h2>
+                <a href="project-6-jobpilot.html" target="_blank">
+                    <img src="/images/JobPilot Preview.png" alt="JobPilot Preview" class="rounded-lg mb-3">
+                </a>
+                <button onclick="toggleDescription(this)" class="text-xs text-cyan-400 hover:underline">Toggle Description</button>
+                <p class="hidden text-sm mt-2 text-gray-400">A sleek job portal platform showcasing job listings, filters, and candidate flow.</p>
+                <p class="text-center text-sm text-gray-400 mt-2">Click to view project</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-8 px-6 text-center text-xs text-gray-600 border-t border-gray-800">
+            &copy; 2025 Stefan de Bruin | TechSphere Technologies
+        </footer>
+
+        <!-- Toggle Script -->
+        <script>
+            function toggleDescription(button) {
+                const desc = button.nextElementSibling;
+                desc.classList.toggle('hidden');
+            }
+        </script>
+    </body>
+</html>
