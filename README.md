@@ -43,9 +43,9 @@ This site serves as a demonstration of Stefan's frontend development skills, UI/
 
 ### 📂 Direct Project Demos
 
-- [BookEase](https://portfolio.techspheretechnologies.com/project-1-bookease/)
-- [CanvasVault](https://portfolio.techspheretechnologies.com/project-4-canvasvault/)
-- [JobPilot](https://portfolio.techspheretechnologies.com/project-6-jobpilot/)
+- [BookEase](https://portfolio.techspheretechnologies.com/project-1-bookease.html)
+- [CanvasVault](https://portfolio.techspheretechnologies.com/project-4-canvasvault.html)
+- [JobPilot](https://portfolio.techspheretechnologies.com/project-6-jobpilot.html)
 
 ## 🚀 License
 
